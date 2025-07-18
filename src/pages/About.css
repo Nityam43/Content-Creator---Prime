@@ -1,0 +1,8 @@
+.about_main {
+    height: 100vh;
+    background-color: red;
+}
+
+.about_main h1 {
+    font-size: 5rem;
+}

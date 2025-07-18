@@ -1,0 +1,8 @@
+.shop_main {
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.shop_main h1 {
+    font-size: 5rem;
+}
