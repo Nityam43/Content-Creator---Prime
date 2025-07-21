@@ -1,11 +1,26 @@
-import Nav from "./components/Nav";
+import gsap from "gsap";
+import Nav from "./components/Nav/Nav";
 import MainRoutes from "./routes/MainRoutes";
+import { ScrollSmoother, ScrollTrigger } from "gsap/all";
+import { useEffect } from "react";
+import CanSlider from "./pages/CanSlider/CanSlider";
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const App = () => {
+  useEffect(() => {
+    ScrollSmoother.create({
+      smooth: 3,
+      effects: true,
+    });
+  });
+
   return (
     <div className="">
       <Nav />
       <MainRoutes />
+      <CanSlider />
+      <div className="h-dvh bg-sky-400"></div>
     </div>
   );
 };
