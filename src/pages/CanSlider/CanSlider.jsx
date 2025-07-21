@@ -25,19 +25,6 @@ const CanSlider = () => {
     }
   }, []);
 
-  const handleSlideChange = () => {
-    setTimeout(() => {
-      const activeImg = document.querySelector(".swiper-slide-active img");
-      if (activeImg) {
-        gsap.fromTo(
-          activeImg,
-          { opacity: 0, scale: 0 },
-          { opacity: 1, scale: 1, duration: 0.7, delay: 0.3 }
-        );
-      }
-    }, 10);
-  };
-
   const handleMouseMove = (e, idx) => {
     const img = imgRefs.current[idx];
     if (!img) return;
