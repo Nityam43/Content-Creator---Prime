@@ -1,0 +1,87 @@
+.team_main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.team_left {
+  width: 50%;
+  height: 100vh;
+}
+
+.team_left-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(40%);
+}
+
+.team_left-inner img {
+  width: 75%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.team_left-inner h3 {
+  font-size: 3rem;
+}
+
+.team_left-inner h1 {
+  font-size: 5rem;
+}
+
+.team_right {
+  flex: 3 1 600px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team_member_card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 550px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.499);
+}
+
+.team_member_img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.team_member_img:hover {
+  transform: scale(1.02);
+}
+
+.team_member_name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.25rem 0;
+}
+
+.team_member_profession {
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.team_member_instagram {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: linear-gradient(90deg, #fbbf24, #ff5f6d, #9c27b0);
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.team_member_instagram:hover {
+  background: linear-gradient(90deg, #9c27b0, #ff5f6d, #fbbf24);
+}

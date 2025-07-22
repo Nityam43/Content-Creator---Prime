@@ -3,12 +3,15 @@ import { flavorCans } from "../../constants/flavorCans";
 import gsap from "gsap";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
+import { useNavigate } from "react-router-dom";
+import "./CanSlider.css";
 const MAX_DIST = 14;
 
 const CanSlider = () => {
   const sliderRef = useRef(null);
   const trackRef = useRef(null);
   const imgRefs = useRef([]);
+  const navigate = useNavigate();
 
   const isTablet = useMediaQuery({
     query: "(max-width: 1024px)",
@@ -28,9 +31,11 @@ const CanSlider = () => {
   const handleMouseMove = (e, idx) => {
     const img = imgRefs.current[idx];
     if (!img) return;
+
     const rect = img.parentElement.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
     const y = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+
     gsap.to(img, {
       x: x * MAX_DIST,
       y: y * MAX_DIST,
@@ -132,8 +137,9 @@ const CanSlider = () => {
                   ref={(el) => (imgRefs.current[idx] = el)}
                   src={flavor.src}
                   alt={flavor.title}
-                  className="h-[200px] md:h-[380px] xl:h-[480px] w-auto object-contain"
+                  className="h-[200px] md:h-[380px] xl:h-[480px] w-auto object-contain cursor-pointer"
                   style={{ minWidth: "180px", maxHeight: "90%" }}
+                  onClick={() => navigate(`/flavors/${flavor.slug}`)}
                 />
               </div>
             </div>

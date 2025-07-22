@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
   height: 7rem;
   padding: 5rem 5rem;
-  background-color: rgba(0, 0, 0, 0.873);
+  backdrop-filter: blur(200px);
 }
 
 .nav-inner {
@@ -15,11 +14,10 @@
 
 .nav-inner img {
   height: 50px;
-  filter: invert(1);
 }
 
 .nav-link {
   text-decoration: none;
   font-size: 2rem;
-  color: white;
+  color: #000;
 }
