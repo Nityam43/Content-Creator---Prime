@@ -37,6 +37,77 @@ export const flavorCans = [
   },
 ];
 
+export const flavorSticks = [
+  {
+    id: 1,
+    slug: "ice-pop",
+    title: "Ice Pop",
+    src: "/images/sticks/img1.webp",
+    description:
+      "A refreshing trio of red, white, and blue flavors that cools you down instantly.",
+  },
+  {
+    id: 2,
+    slug: "cherry-freeze",
+    title: "Cherry Freeze",
+    src: "/images/sticks/img2.webp",
+    description:
+      "Chill cherry flavor blended with icy smoothness — the ultimate freeze.",
+  },
+  {
+    id: 3,
+    slug: "strawberry-banana",
+    title: "Strawberry Banana",
+    src: "/images/sticks/img3.webp",
+    description:
+      "Classic combo of ripe strawberries and smooth bananas, naturally flavored.",
+  },
+  {
+    id: 4,
+    slug: "lemonade",
+    title: "Lemonade",
+    src: "/images/sticks/img4.webp",
+    description:
+      "Bright and classic lemonade flavor, naturally flavored for ultimate refreshment.",
+  },
+  {
+    id: 5,
+    slug: "strawberry-watermelon",
+    title: "Strawberry Watermelon",
+    src: "/images/sticks/img5.webp",
+    description:
+      "A juicy blend of strawberry and watermelon flavors, naturally flavored with other natural flavors.",
+  },
+];
+
+export const flavorIce = [
+  {
+    id: 1,
+    slug: "red-chill",
+    title: "Red Chill",
+    src: "/images/iceBottle/img2.webp",
+    description:
+      "A smooth, refreshing hydration drink with a cool red berry flavor and other natural flavors.",
+  },
+  {
+    id: 2,
+    slug: "orange",
+    title: "Orange",
+    src: "/images/iceBottle/img1.webp",
+    description:
+      "Bright, citrusy orange flavor with a crisp, ice-cold finish for extra refreshment.",
+  },
+  {
+    id: 3,
+    slug: "blue-chill",
+    title: "Blue Chill",
+    src: "/images/iceBottle/img3.webp",
+    description:
+      "Chilled blue raspberry-inspired flavor, blended with a smooth, icy sensation.",
+  },
+];
+
+
 export const team = [
   {
     id: 1,

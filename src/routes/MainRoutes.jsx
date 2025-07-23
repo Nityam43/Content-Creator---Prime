@@ -1,9 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import Shop from "../pages/Shop";
-import CanSlider from "../components/CanSlider/CanSlider";
 import Products from "../pages/Products/Products";
-import FlavorDetails from "../components/FlavorDetails/FlavorDetails";
+import Sticks from "../pages/Products/Sticks/Sticks";
+import IceBottle from "../pages/Products/IceBottle/IceBottle";
+import Can from "../pages/Products/Can/Can";
+import FlavorCan from "../components/FlavorCan/FlavorCan";
+import FlavorStick from "../components/FlavorStick/FlavorStick";
+import FlavorIce from "../components/FlavorIce/FlavorIce";
 
 const MainRoutes = () => {
   return (
@@ -11,7 +15,16 @@ const MainRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/product" element={<Products />} />
       <Route path="/shop" element={<Shop />} />
-      <Route path="/flavors/:flavorId" element={<FlavorDetails />} />
+
+      <Route path="/product/can" element={<Can />} />
+      <Route path="/flavors/can/:flavorId" element={<FlavorCan />} />
+
+      <Route path="/product/sticks" element={<Sticks />} />
+      <Route path="/flavors/sticks/:flavorId" element={<FlavorStick />} />
+
+
+      <Route path="/product/icebottle" element={<IceBottle />} />
+      <Route path="/flavors/icebottle/:flavorId" element={<FlavorIce />} />
     </Routes>
   );
 };

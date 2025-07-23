@@ -139,7 +139,7 @@ const CanSlider = () => {
                   alt={flavor.title}
                   className="h-[200px] md:h-[380px] xl:h-[480px] w-auto object-contain cursor-pointer"
                   style={{ minWidth: "180px", maxHeight: "90%" }}
-                  onClick={() => navigate(`/flavors/${flavor.slug}`)}
+                  onClick={() => navigate(`/flavors/can/${flavor.slug}`)}
                 />
               </div>
             </div>

@@ -1,0 +1,73 @@
+.flavor_not_found {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: #444;
+}
+
+.flavor_details {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 0 10vw;
+}
+
+.flavor_left {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.flavor_left img {
+  height: 100%;
+}
+
+.flavor_right {
+  display: flex;
+  height: 80%;
+  width: 40vw;
+  flex-direction: column;
+  align-self: center;
+  padding: 5rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  gap: 3rem;
+}
+
+.flavor_title {
+  font-size: 3rem;
+}
+
+.flavor_button {
+  width: fit-content;
+  border: 1px solid black;
+  color: #000;
+  background-color: #fff;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.flavor_button:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.flavor_list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+hr {
+  opacity: 0.5;
+}

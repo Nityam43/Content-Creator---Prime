@@ -1,0 +1,32 @@
+.can_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.can_card {
+  max-width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.can_image {
+  width: 100%;
+  height: auto;
+}
+
+.can_title {
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.can_description {
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem 0;
+}
