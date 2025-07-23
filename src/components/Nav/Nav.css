@@ -2,22 +2,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7rem;
-  padding: 5rem 5rem;
-  backdrop-filter: blur(200px);
+  height: calc(100vh - 88vh);
+  padding: 0 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.nav-inner {
-  display: flex;
-  gap: 8rem;
-}
-
-.nav-inner img {
+.nav-logo img {
   height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5rem;
 }
 
 .nav-link {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   color: #000;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ff6b6b;
 }

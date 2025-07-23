@@ -3,7 +3,6 @@ import Nav from "./components/Nav/Nav";
 import MainRoutes from "./routes/MainRoutes";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import { useEffect } from "react";
-import CanSlider from "./components/CanSlider/CanSlider";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -19,7 +18,6 @@ const App = () => {
     <div className="">
       <Nav />
       <MainRoutes />
-      {/* <CanSlider /> */}
       <div className="h-dvh bg-sky-400"></div>
     </div>
   );
