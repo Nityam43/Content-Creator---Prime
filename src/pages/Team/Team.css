@@ -1,6 +1,6 @@
 .team_main {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   display: flex;
 }
 
@@ -84,4 +84,108 @@
 
 .team_member_instagram:hover {
   background: linear-gradient(90deg, #9c27b0, #ff5f6d, #fbbf24);
+}
+
+@media (max-width: 1024px) {
+  .team_main {
+    flex-direction: column;
+    height: 180vh;
+  }
+
+  .team_left {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .team_left-inner {
+    transform: none;
+    padding: 2rem 0;
+  }
+
+  .team_left-inner img {
+    width: 90%;
+    height: auto;
+  }
+
+  .team_left-inner h3 {
+    font-size: 2.5rem;
+  }
+
+  .team_left-inner h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .team_right {
+    padding-bottom: 2rem;
+  }
+
+  .team_member_card {
+    max-width: 90%;
+  }
+
+  .team_member_name {
+    font-size: 2.8rem;
+  }
+
+  .team_member_profession {
+    font-size: 1.6rem;
+  }
+
+  .team_member_instagram {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .team_main {
+    flex-direction: column;
+    height: 165vh;
+  }
+
+  .team_member_name {
+    font-size: 2.2rem;
+  }
+
+  .team_member_profession {
+    font-size: 1.4rem;
+  }
+
+  .team_member_instagram {
+    font-size: 1.6rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .team_main {
+    flex-direction: column;
+    height: 140vh;
+  }
+
+  .team_left-inner h1 {
+    font-size: 2.8rem;
+  }
+
+  .team_left-inner h3 {
+    font-size: 2rem;
+  }
+
+  .team_member_card {
+    padding: 1rem;
+  }
+
+  .team_member_name {
+    font-size: 1.8rem;
+  }
+
+  .team_member_profession {
+    font-size: 1.2rem;
+  }
+
+  .team_member_instagram {
+    font-size: 1.4rem;
+    padding: 0.2rem 0.6rem;
+  }
 }
