@@ -1,0 +1,85 @@
+.about_ksi, .about_logan {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_left {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_left img {
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.about_logan .about_left img {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.about_right {
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  font-size: 5rem;
+  padding: 0 5rem;
+}
+
+.about_right p {
+    font-size: 3rem;
+}
+
+.about_right ul {
+    font-weight: 500;
+    font-size: 3rem;
+    list-style-type: disc;
+    margin-left: 3rem;
+}
+
+.about_logan {
+    flex-direction: row-reverse;
+}
+
+.about_prime {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3.7rem;
+}
+
+.about_prime img {
+    max-width: 50vw;
+    border-radius: 10px;
+}
+
+.about_prime-info {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.about_prime-info h3 {
+    font-size: 2.8rem;
+}
+
+.about_prime-info ul {
+    font-weight: 500;
+    font-size: 2.7rem;
+    list-style-type: disc;
+    margin-left: 3rem;
+}
