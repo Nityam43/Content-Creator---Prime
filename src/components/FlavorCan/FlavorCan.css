@@ -71,3 +71,77 @@
 hr {
   opacity: 0.5;
 }
+
+@media (max-width: 1024px) {
+  .flavor_details {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .flavor_left,
+  .flavor_right {
+    width: 100%;
+    height: auto;
+  }
+
+  .flavor_right {
+    padding: 3rem 2rem;
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+
+  .flavor_title {
+    font-size: 2.5rem;
+  }
+
+  .flavor_button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flavor_right {
+    font-size: 1.2rem;
+    gap: 1.5rem;
+  }
+
+  .flavor_title {
+    font-size: 2rem;
+  }
+
+  .flavor_description {
+    font-size: 1rem;
+  }
+
+  .flavor_button {
+    font-size: 0.9rem;
+  }
+
+  .flavor_list {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .flavor_right {
+    padding: 2rem 1rem;
+  }
+
+  .flavor_title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .flavor_description {
+    text-align: center;
+  }
+
+  .flavor_list {
+    padding-left: 15px;
+  }
+
+  .flavor_button {
+    align-self: center;
+  }
+}

@@ -83,3 +83,66 @@
     list-style-type: disc;
     margin-left: 3rem;
 }
+
+@media (max-width: 1024px) {
+  .about_ksi,
+  .about_logan,
+  .about_prime {
+    flex-direction: column;
+    height: auto;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .about_left,
+  .about_right,
+  .about_prime-info {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .about_left img,
+  .about_logan .about_left img,
+  .about_prime img {
+    width: 80vw;
+    max-width: none;
+  }
+
+  .about_right {
+    font-size: 3rem;
+  }
+
+  .about_right p,
+  .about_right ul {
+    font-size: 1.8rem;
+    margin-left: 0;
+  }
+
+  .about_prime-info {
+    font-size: 1.8rem;
+  }
+
+  .about_prime-info ul {
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_right {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .about_right p,
+  .about_right ul,
+  .about_prime-info {
+    font-size: 1.2rem;
+  }
+
+  .about_prime-info ul {
+    margin-left: 1rem;
+  }
+}

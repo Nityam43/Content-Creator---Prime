@@ -30,3 +30,36 @@
   font-size: 2rem;
   margin: 0.5rem 0 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .icebottle_main {
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .icebottle_card {
+    max-width: 90%;
+  }
+
+  .icebottle_title {
+    font-size: 2rem;
+  }
+
+  .icebottle_description {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icebottle_title {
+    font-size: 1.8rem;
+  }
+
+  .icebottle_description {
+    font-size: 1.2rem;
+  }
+
+  .icebottle_card {
+    padding: 1rem;
+  }
+}

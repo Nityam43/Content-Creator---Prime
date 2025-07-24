@@ -30,3 +30,36 @@
   font-size: 2rem;
   margin: 0.5rem 0 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .can_main {
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .can_card {
+    max-width: 90%;
+  }
+
+  .can_title {
+    font-size: 2rem;
+  }
+
+  .can_description {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .can_title {
+    font-size: 1.8rem;
+  }
+
+  .can_description {
+    font-size: 1.2rem;
+  }
+
+  .can_card {
+    padding: 1rem;
+  }
+}

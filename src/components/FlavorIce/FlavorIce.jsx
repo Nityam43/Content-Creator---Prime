@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-
 import "../FlavorCan/FlavorCan.css";
 import { flavorIce } from "../../constants/flavorCans";
 

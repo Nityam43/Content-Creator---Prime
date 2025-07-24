@@ -25,6 +25,7 @@
   align-items: start;
   position: relative;
   z-index: 10;
+  margin: 1rem 0 0 0;
 }
 
 .auth-box {
@@ -132,4 +133,84 @@
   color: #fff;
   background-color: #000;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    height: auto;
+    padding: 2rem 1rem;
+    align-items: center;
+  }
+
+  .auth-box {
+    width: 90vw;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+  }
+
+  .auth-title {
+    font-size: 2.5rem;
+  }
+
+  .auth-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .toggle-btn {
+    font-size: 1.4rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .auth-label {
+    font-size: 1.4rem;
+  }
+
+  .auth-input {
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .auth-button {
+    font-size: 1.6rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login_image {
+    display: none;
+  }
+
+  .auth-box {
+    padding: 1rem 1.2rem;
+    border-radius: 15px;
+  }
+
+  .auth-title {
+    font-size: 2rem;
+  }
+
+  .auth-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .toggle-btn {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .auth-label {
+    font-size: 1.1rem;
+  }
+
+  .auth-input {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .auth-button {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+  }
 }

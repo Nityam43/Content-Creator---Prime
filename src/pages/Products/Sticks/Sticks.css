@@ -30,3 +30,36 @@
   font-size: 2rem;
   margin: 0.5rem 0 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .sticks_main {
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .sticks_card {
+    max-width: 90%;
+  }
+
+  .sticks_title {
+    font-size: 2rem;
+  }
+
+  .sticks_description {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sticks_title {
+    font-size: 1.8rem;
+  }
+
+  .sticks_description {
+    font-size: 1.2rem;
+  }
+
+  .sticks_card {
+    padding: 1rem;
+  }
+}
