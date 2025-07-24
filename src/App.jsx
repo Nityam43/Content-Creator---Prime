@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import MainRoutes from "./routes/MainRoutes";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import { useEffect } from "react";
+import Footer from "./pages/Footer/Footer";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -18,7 +19,7 @@ const App = () => {
     <div className="">
       <Nav />
       <MainRoutes />
-      <div className="h-dvh bg-sky-400"></div>
+      <Footer />
     </div>
   );
 };
