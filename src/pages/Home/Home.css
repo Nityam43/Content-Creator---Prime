@@ -5,7 +5,7 @@
   height: 88vh;
   background: #1919191f;
   letter-spacing: 0.8rem;
-  background: url("public/images/hero.jpg") center no-repeat;
+  background: url("/images/hero.jpg") center no-repeat;
   background-size: cover;
 }
 

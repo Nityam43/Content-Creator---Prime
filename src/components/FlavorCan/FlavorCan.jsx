@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import { flavorCans } from "../../constants/flavorCans";
 import "./FlavorCan.css";
 
@@ -7,7 +7,21 @@ const FlavorCan = () => {
   const flavor = flavorCans.find((item) => item.slug === flavorId);
 
   if (!flavor) {
-    return <h1 className="flavor_not_found">Flavor not found</h1>;
+    console.log(`Invalid flavor ID: ${flavorId}`);
+    console.log('Available flavors:', flavorCans.map(f => f.slug));
+    return (
+      <div className="flavor_not_found" style={{ padding: '2rem', textAlign: 'center' }}>
+        <h1>Flavor not found</h1>
+        <p>The flavor ID "{flavorId}" is not valid.</p>
+        <p>Available flavors: {flavorCans.map(f => f.slug).join(', ')}</p>
+        <button 
+          onClick={() => window.history.back()} 
+          style={{ marginTop: '1rem', padding: '0.5rem 1rem', cursor: 'pointer' }}
+        >
+          Go Back
+        </button>
+      </div>
+    );
   }
 
   return (
