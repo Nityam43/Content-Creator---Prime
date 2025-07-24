@@ -6,7 +6,7 @@ const About = () => {
       <div className="about_main">
         <div className="about_ksi">
           <div className="about_left">
-            <img src="public/images/about/ksi.webp" alt="" />
+            <img src="/images/about/ksi.webp" alt="KSI" />
           </div>
           <div className="about_right">
             <h1>KSI</h1>
@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div className="about_logan">
           <div className="about_left">
-            <img src="public/images/about/logan_paul.webp" alt="" />
+            <img src="/images/about/logan_paul.webp" alt="Logan Paul" />
           </div>
           <div className="about_right">
             <h1>LOGAN PAUL</h1>
@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </div>
         <div className="about_prime">
-          <img src="public/images/about/hero.webp" alt="" />
+          <img src="/images/about/hero.webp" alt="Prime Hydration" />
           <div className="about_prime-info">
             <h1>
               KSI and Logan Paul launched Prime Hydration together on January 4,

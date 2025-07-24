@@ -112,44 +112,44 @@ export const team = [
   {
     id: 1,
     name: "Patrick Mahomes",
-    src: "/images/team/img1",
+    src: "/images/team/img1.webp",
     profession: "Football",
     instagram: " https://www.instagram.com/patrickmahomes/?hl=en",
   },
   {
     id: 2,
     name: "Aaron Judge",
-    src: "/images/team/img2",
+    src: "/images/team/img2.webp",
     profession: "Baseball",
     instagram: "https://www.instagram.com/thejudge44/",
   },
   {
     id: 3,
     name: "Alisha Lehmann ",
-    src: "/images/team/img3",
+    src: "/images/team/img3.webp",
     profession: "Soccer",
     instagram: " https://www.instagram.com/alishalehmann7/?hl=en",
   },
   {
     id: 4,
     name: "Max Park",
-    src: "/images/team/img4",
+    src: "/images/team/img4.webp",
     profession: "Rubik's Cube",
     instagram: " https://www.instagram.com/maxfast23/?hl=en",
   },
 ];
 
 export const sliderData = [
-  { img: "./images/bottle/cherry_freeze.webp", name: "cherry freeze", id: 1 },
+  { img: "/images/bottle/cherry_freeze.webp", name: "cherry freeze", id: 1 },
   {
-    img: "./images/bottle/collector_series.webp",
+    img: "/images/bottle/collector_series.webp",
     name: "collector series",
     id: 2,
   },
-  { img: "./images/bottle/future freeze.webp", name: "future freeze", id: 3 },
-  { img: "./images/bottle/ice_pop.webp", name: "ice pop", id: 4 },
-  { img: "./images/bottle/peso_pluma.webp", name: "peso pluma", id: 5 },
-  { img: "./images/bottle/sournova.webp", name: "sournova", id: 6 },
+  { img: "/images/bottle/future freeze.webp", name: "future freeze", id: 3 },
+  { img: "/images/bottle/ice_pop.webp", name: "ice pop", id: 4 },
+  { img: "/images/bottle/peso_pluma.webp", name: "peso pluma", id: 5 },
+  { img: "/images/bottle/sournova.webp", name: "sournova", id: 6 },
 ];
 
 // export const canDetails = {

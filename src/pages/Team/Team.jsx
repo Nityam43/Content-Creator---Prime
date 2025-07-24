@@ -59,7 +59,7 @@ const Team = () => {
               aria-label={`Instagram profile of ${img.name}`}
             >
               <img
-                src={img.src + ".webp"}
+                src={img.src}
                 alt={img.name}
                 className="team_member_img"
               />
