@@ -18,7 +18,7 @@ A reimagined, modern web experience for the **PRIME Hydration** brand, built usi
 
 | Frontend | Animation | Styling | Deployment |
 |----------|-----------|---------|------------|
-| React.js | GSAP      | CSS     | GitHub Pages |
+| React.js | GSAP      | CSS     | Vercel |
 | Framer Motion | ScrollTrigger | Responsive Design | - |
 
 ## 📁 Folder Structure
